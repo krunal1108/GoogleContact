@@ -1,0 +1,64 @@
+.header {
+    width: 100%;
+    height: 60px;
+    background-color: #c2e7ff;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0  ;
+
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body{
+  background: #f2f2f2;
+  font-family: "Inter", sans-serif;
+}
+
+.search {
+  width: 100%;
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid #c2e7ff;
+  border-right: none;
+  padding: 16px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #c2e7ff;
+}
+
+.searchTerm:focus{
+  color: #c2e7ff;
+}
+
+.searchButton {
+  width: 40px;
+  height: 36px;
+  border: 1px solid black;
+  background: white;
+  text-align: center;
+  color: #c2e7ff;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.wrap{
+  width: 100%;
+}
+
+.add-btn{
+  background-color: white;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border :none;
+  color: blue;
+}
